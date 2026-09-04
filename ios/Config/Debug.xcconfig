@@ -1,0 +1,4 @@
+// Local development. Point at your machine running `npm run dev` in /backend.
+// NOTE: no data-provider or OpenAI key ever lives in the app.
+CIVICAI_API_BASE_URL = http:/$()/localhost:8080
+CIVICAI_APP_KEY =

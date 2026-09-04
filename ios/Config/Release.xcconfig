@@ -1,0 +1,4 @@
+// Production. MUST be https. Replace with your deployed backend host.
+CIVICAI_API_BASE_URL = https:/$()/api.your-civicai-host.example.com
+// Optional shared secret. Must match APP_SHARED_SECRET on the backend.
+CIVICAI_APP_KEY =
