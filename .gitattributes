@@ -1,0 +1,15 @@
+# Normalize to LF in the repository. The web-upload path introduced CRLF, which
+# made every file read as modified from a Windows checkout. Text files are stored
+# as LF and checked out with the platform's native endings.
+* text=auto eol=lf
+
+# Xcode / iOS
+*.pbxproj      text eol=lf -diff merge=union
+*.xcconfig     text eol=lf
+*.swift        text eol=lf
+*.plist        text eol=lf
+
+# Binary — never touch, never diff
+*.png          binary
+*.jpg          binary
+*.pdf          binary
