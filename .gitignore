@@ -1,0 +1,15 @@
+# Node
+node_modules/
+.env
+
+# Xcode
+ios/CivicAI.xcodeproj/
+ios/*.xcworkspace/
+build/
+DerivedData/
+xcuserdata/
+*.xcuserstate
+
+# macOS / Windows
+.DS_Store
+Thumbs.db
